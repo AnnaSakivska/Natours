@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natours app for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaSakivska/Natours.git"
+  },
+  "author": "Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaSakivska/Natours/issues"
+  },
+  "homepage": "https://github.com/AnnaSakivska/Natours#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "sass-loader": "^8.0.2",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
